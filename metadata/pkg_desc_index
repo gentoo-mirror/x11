@@ -1,0 +1,137 @@
+app-benchmarks/glmark2 2012.12_p285 2014.03: Opengl test suite
+dev-libs/libclc 9999: OpenCL C library
+dev-libs/libevdev 9999: Handler library for evdev events
+dev-libs/nuclear 9999: A Shell plugin for Weston
+dev-libs/orbital 9999: A Wayland shell client
+dev-libs/wayland 9999: Wayland protocol libraries
+dev-libs/weston 9999: Wayland reference compositor
+media-libs/glu 9999: The OpenGL Utility Library
+media-libs/mesa 9999: OpenGL-like graphic library for Linux
+x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
+x11-apps/mkfontdir 9999: create an index of X font files in a directory
+x11-apps/mkfontscale 9999: create an index of scalable font files for X
+x11-apps/radeontop 0.7 9999: Utility to view Radeon GPU utilization
+x11-apps/smproxy 9999: Session Manager Proxy
+x11-apps/x11perf 9999: X rendering operation stress test utility
+x11-apps/xcursorgen 9999: create an X cursor file from a collection of PNG images
+x11-apps/xdriinfo 9999: query configuration information of DRI drivers
+x11-apps/xev 9999: print contents of X events
+x11-apps/xinit 9999: X Window System initializer
+x11-apps/xinput 9999: Utility to set XInput device parameters
+x11-apps/xkbevd 9999: XKB event daemon
+x11-apps/xkbutils 9999: X.Org xkbutils application
+x11-apps/xman 9999: Manual page display program for the X Window System
+x11-apps/xrandr 9999: primitive command line interface to RandR extension
+x11-apps/xwininfo 9999: window information utility for X
+x11-base/nouveau-drm 99999999: Nouveau DRM Kernel Modules for X11
+x11-base/xorg-drivers 9999: Meta package containing deps on all xorg drivers
+x11-base/xorg-server 9999: X.Org X servers
+x11-drivers/ati-drivers 13.1_pre897: Ati precompiled drivers for legacy Radeon R600 (HD2000 Series) and newer chipsets
+x11-drivers/ati-drivers 14.2_beta 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
+x11-drivers/xf86-input-evdev 9999: Generic Linux input driver
+x11-drivers/xf86-input-joystick 9999: X.Org driver for joystick input devices
+x11-drivers/xf86-input-keyboard 9999: Keyboard input driver
+x11-drivers/xf86-input-mouse 9999: X.Org driver for mouse input devices
+x11-drivers/xf86-input-plpevtch 0.5.0: Evdev based touchscreen driver
+x11-drivers/xf86-input-synaptics 9999: Driver for Synaptics touchpads
+x11-drivers/xf86-input-wacom 9999: Driver for Wacom tablets and drawing devices
+x11-drivers/xf86-video-ati 9999: ATI video driver
+x11-drivers/xf86-video-glint 9999: GLINT/Permedia video driver
+x11-drivers/xf86-video-intel 9999: X.Org driver for Intel cards
+x11-drivers/xf86-video-modesetting 9999: Unaccelerated generic driver for kernel modesetting
+x11-drivers/xf86-video-nested 9999: driver to run Xorg on top of Xorg or something else
+x11-drivers/xf86-video-nouveau 9999: Accelerated Open Source driver for nVidia cards
+x11-drivers/xf86-video-vmware 9999: VMware SVGA video driver
+x11-libs/glamor 9999: OpenGL based 2D rendering acceleration library
+x11-libs/libFS 9999: X.Org FS library
+x11-libs/libICE 9999: X.Org ICE library
+x11-libs/libSM 9999: X.Org SM library
+x11-libs/libX11 9999: X.Org X11 library
+x11-libs/libXScrnSaver 9999: X.Org XScrnSaver library
+x11-libs/libXTrap 9999: X.Org XTrap library
+x11-libs/libXamine 9999: Protocol analysis library for the X Window System protocol
+x11-libs/libXau 9999: X.Org Xau library
+x11-libs/libXaw 9999: X.Org Xaw library
+x11-libs/libXaw3d 9999: X.Org Xaw3d library
+x11-libs/libXcomposite 9999: X.Org Xcomposite library
+x11-libs/libXcursor 9999: X.Org Xcursor library
+x11-libs/libXdamage 9999: X.Org Xdamage library
+x11-libs/libXdmcp 9999: X.Org Xdmcp library
+x11-libs/libXevie 9999: X.Org Xevie library
+x11-libs/libXext 9999: X.Org Xext library
+x11-libs/libXfixes 9999: X.Org Xfixes library
+x11-libs/libXfont 9999: X.Org Xfont library
+x11-libs/libXfontcache 9999: X.Org Xfontcache library
+x11-libs/libXft 9999: X.Org Xft library
+x11-libs/libXi 9999: X.Org Xi library
+x11-libs/libXinerama 9999: X.Org Xinerama library
+x11-libs/libXmu 9999: X.Org Xmu library
+x11-libs/libXp 9999: X.Org Xp library
+x11-libs/libXpm 9999: X.Org Xpm library
+x11-libs/libXrandr 9999: X.Org Xrandr library
+x11-libs/libXrender 9999: X.Org Xrender library
+x11-libs/libXres 9999: X.Org XRes library
+x11-libs/libXt 9999: X.Org Xt library
+x11-libs/libXtst 9999: X.Org Xtst library
+x11-libs/libXv 9999: X.Org Xv library
+x11-libs/libXvMC 9999: X.Org XvMC library
+x11-libs/libXxf86dga 9999: X.Org Xxf86dga library
+x11-libs/libXxf86misc 9999: X.Org Xxf86misc library
+x11-libs/libXxf86vm 9999: X.Org Xxf86vm library
+x11-libs/libdmx 9999: X.Org dmx library
+x11-libs/libdrm 9999: X.Org libdrm library
+x11-libs/libfontenc 9999: X.Org fontenc library
+x11-libs/libpciaccess 9999: Library providing generic access to the PCI bus and devices
+x11-libs/libvdpau-va-gl 0.3.4 9999: VDPAU driver with VA-API/OpenGL backend.
+x11-libs/libxcb 9999: X C-language Bindings library
+x11-libs/libxkbcommon 9999: X.Org xkbcommon library
+x11-libs/libxkbfile 9999: X.Org xkbfile library
+x11-libs/libxkbui 9999: X.Org xkbui library
+x11-libs/libxshmfence 9999: Shared memory fences using futexes
+x11-libs/pixman 9999: Low-level pixel manipulation routines
+x11-libs/startup-notification 9999: Application startup notification and feedback library
+x11-libs/xcb-util 9999: X C-language Bindings sample implementations
+x11-libs/xcb-util-cursor 9999: X C-language Bindings sample implementations
+x11-libs/xcb-util-image 9999: X C-language Bindings sample implementations
+x11-libs/xcb-util-keysyms 9999: X C-language Bindings sample implementations
+x11-libs/xcb-util-renderutil 9999: X C-language Bindings sample implementations
+x11-libs/xcb-util-wm 9999: X C-language Bindings sample implementations
+x11-libs/xpyb 9999: XCB-based Python bindings for the X Window System
+x11-libs/xtrans 9999: X.Org xtrans library
+x11-misc/envytools 9999: Tools for people envious of nvidia's blob driver.
+x11-misc/util-macros 9999: X.Org autotools utility macros
+x11-misc/xcb-demo 9999: X C-language Bindings demos
+x11-misc/xkeyboard-config 9999: X keyboard configuration database
+x11-proto/bigreqsproto 9999: X.Org BigReqs protocol headers
+x11-proto/compositeproto 9999: X.Org Composite protocol headers
+x11-proto/damageproto 9999: X.Org Damage protocol headers
+x11-proto/dmxproto 9999: X.Org DMX protocol headers
+x11-proto/dri2proto 9999: X.Org DRI2 protocol headers
+x11-proto/dri3proto 9999: X.Org DRI3 protocol specification and Xlib/Xserver headers
+x11-proto/evieext 9999: X.Org EvIE protocol headers
+x11-proto/fixesproto 9999: X.Org Fixes protocol headers
+x11-proto/fontcacheproto 9999: X.Org Fontcache protocol headers
+x11-proto/fontsproto 9999: X.Org Fonts protocol headers
+x11-proto/glproto 9999: X.Org GL protocol headers
+x11-proto/inputproto 9999: X.Org Input protocol headers
+x11-proto/kbproto 9999: X.Org KB protocol headers
+x11-proto/presentproto 9999: X.Org Present protocol specification and Xlib/Xserver headers
+x11-proto/printproto 9999: X.Org Print protocol headers
+x11-proto/randrproto 9999: X.Org Randr protocol headers
+x11-proto/recordproto 9999: X.Org Record protocol headers
+x11-proto/renderproto 9999: X.Org Render protocol headers
+x11-proto/resourceproto 9999: X.Org Resource protocol headers
+x11-proto/scrnsaverproto 9999: X.Org ScrnSaver protocol headers
+x11-proto/trapproto 9999: X.Org Trap protocol headers
+x11-proto/videoproto 9999: X.Org Video protocol headers
+x11-proto/xcb-proto 9999: X C-language Bindings protocol headers
+x11-proto/xcmiscproto 9999: X.Org XCMisc protocol headers
+x11-proto/xextproto 9999: X.Org XExt protocol headers
+x11-proto/xf86bigfontproto 9999: X.Org XF86BigFont protocol headers
+x11-proto/xf86dgaproto 9999: X.Org XF86DGA protocol headers
+x11-proto/xf86driproto 9999: X.Org XF86DRI protocol headers
+x11-proto/xf86miscproto 9999: X.Org XF86Misc protocol headers
+x11-proto/xf86rushproto 9999: X.Org XF86Rush protocol headers
+x11-proto/xf86vidmodeproto 9999: X.Org XF86VidMode protocol headers
+x11-proto/xineramaproto 9999: X.Org Xinerama protocol headers
+x11-proto/xproto 9999: X.Org xproto protocol headers
