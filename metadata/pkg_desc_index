@@ -26,8 +26,7 @@ x11-apps/xwininfo 9999: window information utility for X
 x11-base/nouveau-drm 99999999: Nouveau DRM Kernel Modules for X11
 x11-base/xorg-drivers 9999: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 9999: X.Org X servers
-x11-drivers/ati-drivers 13.1_pre897: Ati precompiled drivers for legacy Radeon R600 (HD2000 Series) and newer chipsets
-x11-drivers/ati-drivers 14.2_beta 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
+x11-drivers/ati-drivers 13.1_pre897 14.2_beta 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/xf86-input-evdev 9999: Generic Linux input driver
 x11-drivers/xf86-input-joystick 9999: X.Org driver for joystick input devices
 x11-drivers/xf86-input-keyboard 9999: Keyboard input driver
