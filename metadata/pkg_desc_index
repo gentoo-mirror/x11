@@ -87,7 +87,6 @@ x11-libs/libxkbcommon 9999: X.Org xkbcommon library
 x11-libs/libxkbfile 9999: X.Org xkbfile library
 x11-libs/libxkbui 9999: X.Org xkbui library
 x11-libs/libxshmfence 9999: Shared memory fences using futexes
-x11-libs/pixman 9999: Low-level pixel manipulation routines
 x11-libs/startup-notification 9999: Application startup notification and feedback library
 x11-libs/xcb-util 9999: X C-language Bindings sample implementations
 x11-libs/xcb-util-cursor 9999: X C-language Bindings sample implementations

@@ -71,6 +71,5 @@ x11-libs/libXaw:deprecated - Install deprecated Xaw6 library.
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-libs/libxcb:xkb - Enable the XCB keyboard extension
-x11-libs/pixman:loongson2f - Enable Loongson2f MMI optimizations.
 x11-misc/envytools:hwtest - Enable building hwtest
 x11-misc/envytools:nva - Enable building nva tools
