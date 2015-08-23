@@ -24,26 +24,6 @@ dev-libs/weston:unwind - Enable libunwind usage for backtraces
 dev-libs/weston:view - Install wayland-view example application
 dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:xwayland - Enable ability support native X11 applications
-media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
-media-libs/mesa:classic - Build drivers based on the classic architecture.
-media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
-media-libs/mesa:dri3 - Enable DRI3 support.
-media-libs/mesa:egl - Enable EGL support.
-media-libs/mesa:gallium - Build drivers based on Gallium3D, the new architecture for 3D graphics drivers.
-media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
-media-libs/mesa:gles1 - Enable GLESv1 support.
-media-libs/mesa:gles2 - Enable GLESv2 support.
-media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
-media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
-media-libs/mesa:openmax - Enable OpenMAX video decode/encode acceleration for Gallium3D.
-media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
-media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
-media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
-media-libs/mesa:vaapi - Enable the VAAPI acceleration interface for the Gallium3D Video Layer.
-media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
-media-libs/mesa:wayland - Enable support for dev-libs/wayland
-media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
-media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
 x11-apps/mesa-progs:egl - Enable EGL support.
 x11-apps/mesa-progs:gles1 - Enable GLESv1 support.
 x11-apps/mesa-progs:gles2 - Enable GLESv2 support.
@@ -68,8 +48,6 @@ x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
 x11-libs/glamor:gles - Build with GLES support
 x11-libs/libSM:uuid - Use UUID for session identification instead of IP address and system time.
 x11-libs/libXaw:deprecated - Install deprecated Xaw6 library.
-x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
-x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-libs/libxcb:xkb - Enable the XCB keyboard extension
 x11-misc/envytools:hwtest - Enable building hwtest
 x11-misc/envytools:nva - Enable building nva tools

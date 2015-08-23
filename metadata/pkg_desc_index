@@ -5,8 +5,6 @@ dev-libs/nuclear 9999: A Shell plugin for Weston
 dev-libs/orbital 9999: A Wayland shell client
 dev-libs/wayland 9999: Wayland protocol libraries
 dev-libs/weston 9999: Wayland reference compositor
-media-libs/glu 9999: The OpenGL Utility Library
-media-libs/mesa 9999: OpenGL-like graphic library for Linux
 x11-apps/mesa-progs 9999: Mesa's OpenGL utility and demo programs (glxgears and glxinfo)
 x11-apps/mkfontdir 9999: create an index of X font files in a directory
 x11-apps/mkfontscale 9999: create an index of scalable font files for X
@@ -23,7 +21,6 @@ x11-apps/xkbutils 9999: X.Org xkbutils application
 x11-apps/xman 9999: Manual page display program for the X Window System
 x11-apps/xrandr 9999: primitive command line interface to RandR extension
 x11-apps/xwininfo 9999: window information utility for X
-x11-base/nouveau-drm 99999999: Nouveau DRM Kernel Modules for X11
 x11-base/xorg-drivers 9999: Meta package containing deps on all xorg drivers
 x11-base/xorg-server 9999: X.Org X servers
 x11-drivers/ati-drivers 13.1_pre897 14.2_beta 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
@@ -78,7 +75,6 @@ x11-libs/libXxf86dga 9999: X.Org Xxf86dga library
 x11-libs/libXxf86misc 9999: X.Org Xxf86misc library
 x11-libs/libXxf86vm 9999: X.Org Xxf86vm library
 x11-libs/libdmx 9999: X.Org dmx library
-x11-libs/libdrm 9999: X.Org libdrm library
 x11-libs/libfontenc 9999: X.Org fontenc library
 x11-libs/libpciaccess 9999: Library providing generic access to the PCI bus and devices
 x11-libs/libvdpau-va-gl 0.3.4 9999: VDPAU driver with VA-API/OpenGL backend.
