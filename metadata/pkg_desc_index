@@ -52,7 +52,6 @@ x11-libs/libXcomposite 9999: X.Org Xcomposite library
 x11-libs/libXcursor 9999: X.Org Xcursor library
 x11-libs/libXdamage 9999: X.Org Xdamage library
 x11-libs/libXdmcp 9999: X.Org Xdmcp library
-x11-libs/libXevie 9999: X.Org Xevie library
 x11-libs/libXext 9999: X.Org Xext library
 x11-libs/libXfixes 9999: X.Org Xfixes library
 x11-libs/libXfont 9999: X.Org Xfont library
