@@ -24,9 +24,6 @@ dev-libs/weston:unwind - Enable libunwind usage for backtraces
 dev-libs/weston:view - Install wayland-view example application
 dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:xwayland - Enable ability support native X11 applications
-x11-apps/mesa-progs:egl - Enable EGL support.
-x11-apps/mesa-progs:gles1 - Enable GLESv1 support.
-x11-apps/mesa-progs:gles2 - Enable GLESv2 support.
 x11-apps/xinit:minimal - Control dependencies on legacy apps (xterm, twm, ...). Safe to enable if you use a modern desktop environment.
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
 x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
