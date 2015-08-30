@@ -6,24 +6,6 @@ app-benchmarks/glmark2:drm - Enable DRM backend support
 app-benchmarks/glmark2:gles2 - Enable GLES2 support
 dev-libs/orbital:logind - Enable for managing user logins and seats
 dev-libs/orbital:solid - Orbital can use Solid from KDE Frameworks 5
-dev-libs/weston:colord - Allow setting color managment
-dev-libs/weston:drm - Enable drm compositor support
-dev-libs/weston:editor - Install wayland-editor example application
-dev-libs/weston:egl - Enable egl acceleration
-dev-libs/weston:fbdev - Enable fbdev compositor support
-dev-libs/weston:gles2 - Use GLESv2 cairo instead of full GL
-dev-libs/weston:headless - Headless backend and a noop renderer, mainly for testing purposes
-dev-libs/weston:ivi - Enable the IVI shell
-dev-libs/weston:launch - Install weston-launch utility
-dev-libs/weston:rdp - Enable Remote Desktop Protocol compositor support
-dev-libs/weston:resize-optimization - Increase performance, allocate more RAM. Recommended to disable on Raspberry Pi
-dev-libs/weston:rpi - Raspberry Pi GPU support
-dev-libs/weston:screen-sharing - Enable screen-sharing through RDP
-dev-libs/weston:tablet - Enable interface for tablets
-dev-libs/weston:unwind - Enable libunwind usage for backtraces
-dev-libs/weston:view - Install wayland-view example application
-dev-libs/weston:wayland-compositor - Enable Wayland compositor support
-dev-libs/weston:xwayland - Enable ability support native X11 applications
 x11-apps/xinit:minimal - Control dependencies on legacy apps (xterm, twm, ...). Safe to enable if you use a modern desktop environment.
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
 x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration

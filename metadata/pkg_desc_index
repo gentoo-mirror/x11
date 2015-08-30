@@ -3,8 +3,6 @@ dev-libs/libclc 9999: OpenCL C library
 dev-libs/libevdev 9999: Handler library for evdev events
 dev-libs/nuclear 9999: A Shell plugin for Weston
 dev-libs/orbital 9999: A Wayland shell client
-dev-libs/wayland 9999: Wayland protocol libraries
-dev-libs/weston 9999: Wayland reference compositor
 x11-apps/mkfontdir 9999: create an index of X font files in a directory
 x11-apps/mkfontscale 9999: create an index of scalable font files for X
 x11-apps/radeontop 0.7 9999: Utility to view Radeon GPU utilization
