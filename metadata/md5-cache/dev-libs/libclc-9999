@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=>=sys-devel/clang-3.6 >=sys-devel/llvm-3.6 || ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-vcs/git-1.8.2.1
+DEPEND=>=sys-devel/clang-3.7 >=sys-devel/llvm-3.7 || ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=OpenCL C library
 EAPI=5
 HOMEPAGE=http://libclc.llvm.org/
 KEYWORDS=~amd64 ~ppc ~x86
 LICENSE=|| ( MIT BSD )
-RDEPEND=>=sys-devel/clang-3.6 >=sys-devel/llvm-3.6
+RDEPEND=>=sys-devel/clang-3.7 >=sys-devel/llvm-3.7
 SLOT=0
 _eclasses_=base	84d9f879f57a8316ff02be0373a3d6f9	eutils	43da5163ba106e87d22d2e7d6d67537f	git-r3	1502b9838d043db47700b8120083e637	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	python-any-r1	b81ab4852d108e3d9c940fa03bce80e1	python-utils-r1	9c405693f1f355a718700c5cffffd9e5	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=b84cb6f1265d151c159296064986d343
+_md5_=4620867fe40eafcc409d9d63453d24e0
