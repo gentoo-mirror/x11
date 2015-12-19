@@ -89,7 +89,7 @@ DEPEND="${CDEPEND}
 	>=x11-proto/fixesproto-5.0
 	>=x11-proto/fontsproto-2.1.3
 	>=x11-proto/glproto-1.4.17-r1
-	>=x11-proto/inputproto-2.2.99.1
+	>=x11-proto/inputproto-2.3
 	>=x11-proto/kbproto-1.0.3
 	>=x11-proto/randrproto-1.5.0
 	>=x11-proto/recordproto-1.13.99.1
@@ -170,7 +170,6 @@ src_configure() {
 		$(use_enable wayland xwayland)
 		$(use_enable !minimal record)
 		$(use_enable !minimal xfree86-utils)
-		$(use_enable !minimal install-libxf86config)
 		$(use_enable !minimal dri)
 		$(use_enable !minimal dri2)
 		$(use_enable !minimal glx)
