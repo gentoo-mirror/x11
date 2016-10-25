@@ -18,7 +18,6 @@ x11-apps/xkbutils 9999: X.Org xkbutils application
 x11-apps/xman 9999: Manual page display program for the X Window System
 x11-apps/xrandr 9999: primitive command line interface to RandR extension
 x11-apps/xwininfo 9999: window information utility for X
-x11-base/xorg-server 9999: X.Org X servers
 x11-drivers/ati-drivers 13.1_pre897 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7 15.11: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/xf86-input-evdev 9999: Generic Linux input driver
 x11-drivers/xf86-input-joystick 9999: X.Org driver for joystick input devices

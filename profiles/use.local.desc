@@ -7,14 +7,6 @@ app-benchmarks/glmark2:gles2 - Enable GLES2 support
 dev-libs/orbital:logind - Enable for managing user logins and seats
 dev-libs/orbital:solid - Orbital can use Solid from KDE Frameworks 5
 x11-apps/xinit:minimal - Control dependencies on legacy apps (xterm, twm, ...). Safe to enable if you use a modern desktop environment.
-x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
-x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
-x11-base/xorg-server:kdrive - Build the kdrive X servers
-x11-base/xorg-server:tslib - Build with tslib support for touchscreen devices
-x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
-x11-base/xorg-server:xnest - Build the Xnest server
-x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
-x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-drivers/ati-drivers:disable-watermark - Do a potentially dangerous binary search and replace to disable watermark
 x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
 x11-drivers/ati-drivers:modules - Build the kernel modules
