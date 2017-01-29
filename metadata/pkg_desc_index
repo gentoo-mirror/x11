@@ -2,7 +2,6 @@ app-benchmarks/glmark2 2012.12_p285 2014.03: Opengl test suite
 dev-libs/libclc 9999: OpenCL C library
 dev-libs/libevdev 9999: Handler library for evdev events
 dev-libs/nuclear 9999: A Shell plugin for Weston
-dev-libs/orbital 9999: A Wayland shell client
 x11-apps/mkfontdir 9999: create an index of X font files in a directory
 x11-apps/mkfontscale 9999: create an index of scalable font files for X
 x11-apps/smproxy 9999: Session Manager Proxy
@@ -17,7 +16,6 @@ x11-apps/xkbutils 9999: X.Org xkbutils application
 x11-apps/xman 9999: Manual page display program for the X Window System
 x11-apps/xrandr 9999: primitive command line interface to RandR extension
 x11-apps/xwininfo 9999: window information utility for X
-x11-drivers/ati-drivers 13.1_pre897 14.3_beta 14.4 14.4_p1 14.6_beta1 14.6_beta2 14.9 14.9-r1 14.12 14.12-r4 15.1 15.7 15.11: Ati precompiled drivers for Radeon Evergreen (HD5000 Series) and newer chipsets
 x11-drivers/xf86-input-evdev 9999: Generic Linux input driver
 x11-drivers/xf86-input-joystick 9999: X.Org driver for joystick input devices
 x11-drivers/xf86-input-keyboard 9999: Keyboard input driver

@@ -4,14 +4,7 @@
 
 app-benchmarks/glmark2:drm - Enable DRM backend support
 app-benchmarks/glmark2:gles2 - Enable GLES2 support
-dev-libs/orbital:logind - Enable for managing user logins and seats
-dev-libs/orbital:solid - Orbital can use Solid from KDE Frameworks 5
 x11-apps/xinit:minimal - Control dependencies on legacy apps (xterm, twm, ...). Safe to enable if you use a modern desktop environment.
-x11-drivers/ati-drivers:disable-watermark - Do a potentially dangerous binary search and replace to disable watermark
-x11-drivers/ati-drivers:gdm-hack - Do a potentially dangerous binary search and replace to fix gdm compatibility
-x11-drivers/ati-drivers:modules - Build the kernel modules
-x11-drivers/ati-drivers:pax_kernel - Enable pax kernel specific patches
-x11-drivers/ati-drivers:qt4 - Install qt4 dependent optional tools (e.g Catalyst Control Panel)
 x11-drivers/xf86-video-ati:glamor - Enable glamor support, it can change performace depends on card.
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
