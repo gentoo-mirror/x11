@@ -9,7 +9,6 @@ x11-drivers/xf86-video-ati:glamor - Enable glamor support, it can change perform
 x11-drivers/xf86-video-intel:sna - Enable SandyBridge's New Acceleration (useful on all chipsets, not just SandyBridge)
 x11-drivers/xf86-video-intel:uxa - Enable UMA Acceleration Architecture
 x11-drivers/xf86-video-intel:xvmc - Enables X-Video Motion Compensation support
-x11-libs/glamor:gles - Build with GLES support
 x11-libs/libSM:uuid - Use UUID for session identification instead of IP address and system time.
 x11-libs/libXaw:deprecated - Install deprecated Xaw6 library.
 x11-libs/libxcb:xkb - Enable the XCB keyboard extension

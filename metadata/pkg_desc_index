@@ -1,7 +1,6 @@
 app-benchmarks/glmark2 2012.12_p285 2014.03: Opengl test suite
 dev-libs/libclc 9999: OpenCL C library
 dev-libs/libevdev 9999: Handler library for evdev events
-dev-libs/nuclear 9999: A Shell plugin for Weston
 x11-apps/mkfontdir 9999: create an index of X font files in a directory
 x11-apps/mkfontscale 9999: create an index of scalable font files for X
 x11-apps/smproxy 9999: Session Manager Proxy
@@ -30,7 +29,6 @@ x11-drivers/xf86-video-modesetting 9999: Unaccelerated generic driver for kernel
 x11-drivers/xf86-video-nested 9999: driver to run Xorg on top of Xorg or something else
 x11-drivers/xf86-video-nouveau 9999: Accelerated Open Source driver for nVidia cards
 x11-drivers/xf86-video-vmware 9999: VMware SVGA video driver
-x11-libs/glamor 9999: OpenGL based 2D rendering acceleration library
 x11-libs/libFS 9999: X.Org FS library
 x11-libs/libICE 9999: X.Org ICE library
 x11-libs/libSM 9999: X.Org SM library
