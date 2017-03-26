@@ -29,7 +29,7 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="
-	>=sys-devel/clang-3.9
+	>=sys-devel/clang-4.0.0
 	>=sys-devel/llvm-3.9"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}"
@@ -45,7 +45,7 @@ src_unpack() {
 
 src_configure() {
 	./configure.py \
-		--with-llvm-config="${EPREFIX}/usr/bin/llvm-config" \
+		--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
 		--prefix="${EPREFIX}/usr" || die
 }
 
