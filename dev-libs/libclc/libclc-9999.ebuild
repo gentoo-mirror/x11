@@ -45,8 +45,8 @@ src_unpack() {
 src_configure() {
 	if clang-major-version == 3 ; then
 		/configure.py \
-		        --with-llvm-config="${EPREFIX}/usr/lib/llvm-config" \
-				        --prefix="${EPREFIX}/usr" || die
+			--with-llvm-config="${EPREFIX}/usr/lib/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
 	elif clang-major-version == 4 ; then
 		./configure.py \
 			--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
