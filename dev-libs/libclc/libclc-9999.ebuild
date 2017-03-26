@@ -12,7 +12,7 @@ if [[ ${PV} = 9999* ]]; then
 	EXPERIMENTAL="true"
 fi
 
-inherit python-any-r1 $GIT_ECLASS
+inherit python-any-r1 $GIT_ECLASS toolchain-funcs
 
 DESCRIPTION="OpenCL C library"
 HOMEPAGE="http://libclc.llvm.org/"
@@ -29,8 +29,8 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="
-	>=sys-devel/clang-4.0.0
-	>=sys-devel/llvm-4.0.0"
+	>=sys-devel/clang-3.9
+	>=sys-devel/llvm-3.9"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}"
 
@@ -44,9 +44,18 @@ src_unpack() {
 }
 
 src_configure() {
+	if clang-major-version == 3 ; then
+		/configure.py \
+		        --with-llvm-config="${EPREFIX}/usr/lib/llvm-config" \
+				        --prefix="${EPREFIX}/usr" || die
+	elif clang-major-version == 4 ; then 
 	./configure.py \
 		--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
-		--prefix="${EPREFIX}/usr" || die
+			--prefix="${EPREFIX}/usr" || die
+	elif clang-major-version == 5 ; then
+		--with-llvm-config="${EPREFIX}/usr/lib/llvm/5/bin/llvm-config" \
+	        --prefix="${EPREFIX}/usr" || die
+	fi
 }
 
 src_compile() {
