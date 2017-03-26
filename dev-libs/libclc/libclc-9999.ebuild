@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -29,8 +28,8 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="
-	>=sys-devel/clang-3.9
-	>=sys-devel/llvm-3.9"
+	>=sys-devel/clang-3.9:*
+	>=sys-devel/llvm-3.9:*"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}"
 
@@ -48,13 +47,14 @@ src_configure() {
 		/configure.py \
 		        --with-llvm-config="${EPREFIX}/usr/lib/llvm-config" \
 				        --prefix="${EPREFIX}/usr" || die
-	elif clang-major-version == 4 ; then 
-	./configure.py \
-		--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
-			--prefix="${EPREFIX}/usr" || die
+	elif clang-major-version == 4 ; then
+		./configure.py \
+			--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
 	elif clang-major-version == 5 ; then
-		--with-llvm-config="${EPREFIX}/usr/lib/llvm/5/bin/llvm-config" \
-	        --prefix="${EPREFIX}/usr" || die
+		./configure.py \
+			-with-llvm-config="${EPREFIX}/usr/lib/llvm/5/bin/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
 	fi
 }
 
