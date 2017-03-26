@@ -30,7 +30,7 @@ IUSE=""
 
 RDEPEND="
 	>=sys-devel/clang-4.0.0
-	>=sys-devel/llvm-3.9"
+	>=sys-devel/llvm-4.0.0"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}"
 
