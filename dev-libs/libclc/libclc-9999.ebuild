@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 PYTHON_COMPAT=( python2_7 )
@@ -12,7 +11,7 @@ if [[ ${PV} = 9999* ]]; then
 	EXPERIMENTAL="true"
 fi
 
-inherit python-any-r1 $GIT_ECLASS
+inherit python-any-r1 $GIT_ECLASS toolchain-funcs
 
 DESCRIPTION="OpenCL C library"
 HOMEPAGE="http://libclc.llvm.org/"
@@ -29,8 +28,8 @@ KEYWORDS="~amd64 ~ppc ~x86"
 IUSE=""
 
 RDEPEND="
-	>=sys-devel/clang-3.9
-	>=sys-devel/llvm-3.9"
+	>=sys-devel/clang-3.9:*
+	>=sys-devel/llvm-3.9:*"
 DEPEND="${RDEPEND}
 	${PYTHON_DEPS}"
 
@@ -44,9 +43,19 @@ src_unpack() {
 }
 
 src_configure() {
-	./configure.py \
-		--with-llvm-config="${EPREFIX}/usr/bin/llvm-config" \
-		--prefix="${EPREFIX}/usr" || die
+	if clang-major-version == 3 ; then
+		/configure.py \
+			--with-llvm-config="${EPREFIX}/usr/lib/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
+	elif clang-major-version == 4 ; then
+		./configure.py \
+			--with-llvm-config="${EPREFIX}/usr/lib/llvm/4/bin/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
+	elif clang-major-version == 5 ; then
+		./configure.py \
+			-with-llvm-config="${EPREFIX}/usr/lib/llvm/5/bin/llvm-config" \
+				--prefix="${EPREFIX}/usr" || die
+	fi
 }
 
 src_compile() {
