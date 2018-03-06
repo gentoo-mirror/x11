@@ -22,8 +22,6 @@
 =x11-drivers/xf86-input-wacom-9999
 =x11-drivers/xf86-video-ati-9999
 =x11-drivers/xf86-video-glint-9999
-=x11-drivers/xf86-video-intel-9999
-=x11-drivers/xf86-video-modesetting-9999
 =x11-drivers/xf86-video-nested-9999
 =x11-drivers/xf86-video-nouveau-9999
 =x11-drivers/xf86-video-vmware-9999
@@ -45,7 +43,6 @@
 =x11-libs/libXdmcp-9999
 =x11-libs/libXext-9999
 =x11-libs/libXfixes-9999
-=x11-libs/libXfontcache-9999
 =x11-libs/libXft-9999
 =x11-libs/libXi-9999
 =x11-libs/libXinerama-9999
@@ -53,7 +50,6 @@
 =x11-libs/libxkbfile-9999
 =x11-libs/libxkbui-9999
 =x11-libs/libXmu-9999
-=x11-libs/libXp-9999
 =x11-libs/libXpm-9999
 =x11-libs/libXrandr-9999
 =x11-libs/libXrender-9999
