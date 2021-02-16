@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=media-libs/libpng media-libs/mesa[gles2?] X? ( x11-libs/libX11 ) wayland? ( >=dev-libs/wayland-1.2 ) virtual/pkgconfig
+DESCRIPTION=Opengl test suite
+EAPI=6
+HOMEPAGE=https://launchpad.net/glmark2
+IUSE=drm gles2 +opengl wayland X python_single_target_python3_7 python_single_target_python3_8 python_single_target_python3_9
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=GPL-3
+RDEPEND=media-libs/libpng media-libs/mesa[gles2?] X? ( x11-libs/libX11 ) wayland? ( >=dev-libs/wayland-1.2 )
+REQUIRED_USE=|| ( opengl gles2 ) || ( drm wayland X )
+SLOT=0
+SRC_URI=https://github.com/glmark2/glmark2/archive/2020.04.tar.gz -> glmark2-2020.04.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	waf-utils	0a6e492cdcbd52b1304cfcd9eba5abc6
+_md5_=5e3f9415a8e6d4d15d9945ac0dacdc3c
