@@ -11,5 +11,5 @@ RDEPEND=media-libs/libpng media-libs/mesa[gles2?] X? ( x11-libs/libX11 ) wayland
 REQUIRED_USE=|| ( opengl gles2 ) || ( drm wayland X )
 SLOT=0
 SRC_URI=https://github.com/glmark2/glmark2/archive/2020.04.tar.gz -> glmark2-2020.04.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multiprocessing	cac3169468f893670dac3e7cb940e045	waf-utils	0a6e492cdcbd52b1304cfcd9eba5abc6	python-utils-r1	2a0da9eb3f3fd923a42d92127685aa37	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multiprocessing	cac3169468f893670dac3e7cb940e045	waf-utils	0a6e492cdcbd52b1304cfcd9eba5abc6	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
 _md5_=5e3f9415a8e6d4d15d9945ac0dacdc3c
