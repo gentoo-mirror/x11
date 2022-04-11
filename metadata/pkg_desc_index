@@ -1,2 +1,2 @@
-app-benchmarks/glmark2 2020.04: Opengl test suite
+app-benchmarks/glmark2 2021.12: glmark2 is an OpenGL 2.0 and ES 2.0 benchmark
 x11-misc/envytools 9999: Tools for people envious of nvidia's blob driver.
