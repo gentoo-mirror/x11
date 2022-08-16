@@ -4,5 +4,3 @@
 
 app-benchmarks/glmark2:drm - Enable DRM backend support
 app-benchmarks/glmark2:gles2 - Enable GLES2 support
-x11-misc/envytools:hwtest - Enable building hwtest
-x11-misc/envytools:nva - Enable building nva tools
